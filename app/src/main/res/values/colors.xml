@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Purpule">#5C258D</color>
+    <color name="Sky">#4389A2</color>
+    <color name="White">#ffffff</color>
+    <color name="Tranparent">#00000000</color>
+    <color name="TextColor">#6962F7</color>
+    <color name="captionCardBackroundColor">#E7EEFB</color>
+</resources>

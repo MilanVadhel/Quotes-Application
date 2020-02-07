@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/caption_card"
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        app:cardElevation="20dp"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="10dp"
+        android:outlineAmbientShadowColor="@color/Tranparent"
+        android:outlineSpotShadowColor="@color/Tranparent"
+        android:background="@color/captionCardBackroundColor">
+        <TextView
+            android:id="@+id/caption"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/TextColor"
+            android:text="Caption"
+            android:textStyle="normal"
+            android:layout_gravity="center"/>
+        <ImageButton
+            android:id="@+id/copyBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/copy"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="135dp"/>
+        <ImageButton
+            android:id="@+id/shareBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/share"
+            android:layout_marginTop="135dp"
+            android:layout_marginLeft="260dp"
+            />
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</LinearLayout>
